@@ -14,7 +14,7 @@ def bisectionUniVariable(f, a, b, N, precision):
         print(f"Bad input, f({a})f({b}) > 0.")
         
     elif np.absolute(np.linalg.norm(prod)) < precision:
-        if np.absolute(no.linalg.norm(f_a)) < precision:
+        if np.absolute(np.linalg.norm(f_a)) < precision:
             print(f"Input was a zero, {a}")
         else:
             print(f"Input was a zero, {b}")
